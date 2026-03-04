@@ -12,7 +12,7 @@ export const globalStyles = css`
 
   /* ========== 2. HTML/Body 기본 ========== */
   html {
-    font-size: 16px;
+    font-size: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;

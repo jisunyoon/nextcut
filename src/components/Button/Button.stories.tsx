@@ -19,6 +19,11 @@ export const Variant: Story = {
             <Button variant="primary">Primary</Button>
             <Button variant="secondary">Secondary</Button>
             <Button variant="ghost">Ghost</Button>
+            <Button variant="danger">Danger</Button>
+            <Button variant="success">Success</Button>
+            <Button variant="warning">Warning</Button>
+            <Button variant="outline">Outline</Button>
+            <Button variant="link">Link</Button>
         </div>
     )
 }
@@ -66,6 +71,17 @@ export const Disabled: Story = {
             <Button variant="primary" disabled>Primary</Button>
             <Button variant="secondary" disabled>Secondary</Button>
             <Button variant="ghost" disabled>Ghost</Button>
+        </div>
+    )
+}
+
+export const Loading: Story = {
+    render: () => (
+        <div css={css`
+            display:flex;
+            gap:8px;
+        `}>
+            <Button variant="primary" loading>Primary</Button>
         </div>
     )
 }

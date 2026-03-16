@@ -35,11 +35,13 @@ const StyledButton = styled.button<ButtonProps>`
         : variant === 'warning' ? theme.colors.warning
         : 'transparent'};
     color: ${({ variant }) =>
-        variant === 'ghost' ? theme.colors.textInverse
+        variant === 'ghost' ? theme.colors.textPrimary
         : variant === 'warning' ? theme.colors.textInverse
         : variant === 'success' ? theme.colors.textInverse
         : variant === 'outline' ? theme.colors.primary
         : variant === 'link' ? theme.colors.primary
+        : variant === 'primary' ? theme.colors.textInverse
+        : variant === 'danger' ? theme.colors.textInverse
         : theme.colors.textPrimary};
     text-decoration: ${({ variant }) =>
         variant === 'link' ? 'underline' : 'none'};

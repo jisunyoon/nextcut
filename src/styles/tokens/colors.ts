@@ -1,35 +1,35 @@
 export const colors = {
     // 브랜드
-    primary: '#7C5CFC',        // 메인 보라
+    primary: '#7C5CFC',
     primaryLight: '#9B82FF',
     primaryDark: '#5A3ED9',
-    accent: '#00D4AA',          
+    accent: '#00D4AA',
 
-    // 다크 모드 배경
-    bgPrimary: '#0F0F14',       // 메인 배경
-    bgSecondary: '#1A1A24',     // 카드/섹션
-    bgTertiary: '#24243A',      // hover/활성 상태
-    bgElevated: '#2A2A40',      // 모달, 드롭다운
+    // 배경
+    bgPrimary: '#FFFFFF',
+    bgSecondary: '#F5F5F7',
+    bgTertiary: '#EBEBEF',
+    bgElevated: '#FFFFFF',
 
     // 텍스트
-    textPrimary: '#F0F0F5',
-    textSecondary: '#9898AD',
-    textTertiary: '#5C5C72',
-    textInverse: '#0F0F14',
+    textPrimary: '#1A1A2E',
+    textSecondary: '#6B6B80',
+    textTertiary: '#9898AD',
+    textInverse: '#FFFFFF',
 
     // 상태
-    success: '#34D399',
-    warning: '#FBBF24',
-    error: '#F87171',
-    info: '#60A5FA',
+    success: '#22C55E',
+    warning: '#F59E0B',
+    error: '#EF4444',
+    info: '#3B82F6',
 
     // 라인/구분
-    border: '#2E2E45',
-    divider: '#1E1E30',
+    border: '#D4D4DC',
+    divider: '#E5E5EB',
 
     // 오버레이
-    overlay: 'rgba(0, 0, 0, 0.7)',
+    overlay: 'rgba(0, 0, 0, 0.5)',
 
-    // 그라데이션 (배너, CTA 등)
+    // 그라데이션
     gradientPrimary: 'linear-gradient(135deg, #7C5CFC, #00D4AA)',
 } as const

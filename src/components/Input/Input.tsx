@@ -51,7 +51,7 @@ shouldForwardProp: (prop) =>
     border: ${({ variant }) =>
         variant === 'outline' ? `1px solid ${theme.colors.border}`
         : 'none'};
-    color: ${theme.colors.textInverse};
+    color: ${theme.colors.textPrimary};
     border-radius: ${({ variant, inputSize }) =>
         variant === 'default' ? '0'
         : inputSize === 'sm' ? '4px'
